@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexão Segura - Cidadania Digital e IA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>Conexão<span>Segura</span></h1>
+        </div>
+        <button id="theme-toggle" class="btn-toggle" aria-label="Alternar modo escuro">Acessibilidade: Modo Escuro</button>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h2>Cidadania Digital na Era das Deepfakes</h2>
+            <p>A inteligência artificial transformou a forma como criamos conteúdos. Contudo, o surgimento de <strong>deepfakes</strong> (vídeos, áudios e imagens manipulados de forma ultra-realista) trouxe grandes desafios para a verdade no ambiente digital. Navegar com responsabilidade é um dever de todos.</p>
+        </section>
+
+        <section class="cards-section">
+            <h3>Como Detectar Mídias Manipuladas por IA</h3>
+            <div class="cards-container">
+                <div class="card">
+                    <h4>1. Inconsistências Visuais</h4>
+                    <p>Fique atento a piscadas de olhos não naturais, sombras desalinhadas, falhas nas bordas do rosto ou texturas estranhas na pele e cabelos.</p>
+                </div>
+                <div class="card">
+                    <h4>2. Ruídos de Áudio</h4>
+                    <p>Muitas deepfakes de voz possuem cortes abruptos, falta de entonação emocional ou ruídos metálicos de fundo de baixa qualidade.</p>
+                </div>
+                <div class="card">
+                    <h4>3. Contexto da Informação</h4>
+                    <p>Sempre verifique a fonte original. Se a notícia ou declaração parece absurda demais e não está em portais de jornalismo confiáveis, desconfie.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="quiz-section">
+            <h3>Desafio da Verdade: Teste Seus Conhecimentos</h3>
+            <p>Se você receber um vídeo bombástico de uma figura pública no WhatsApp, qual deve ser sua primeira atitude?</p>
+            
+            <form id="quiz-form">
+                <div class="options-container">
+                    <label class="option-label">
+                        <input type="radio" name="quiz-answer" value="errada1" required>
+                        <span>Compartilhar imediatamente nos grupos para alertar seus amigos e familiares.</span>
+                    </label>
+                    <label class="option-label">
+                        <input type="radio" name="quiz-answer" value="correta">
+                        <span>Buscar o assunto em agências de checagem ou portais jornalísticos antes de repassar.</span>
+                    </label>
+                    <label class="option-label">
+                        <input type="radio" name="quiz-answer" value="errada2">
+                        <span>Acreditar 100%, afinal, se há um vídeo mostrando a pessoa falar, só pode ser real.</span>
+                    </label>
+                </div>
+                <button type="submit" class="btn-submit">Verificar Resposta</button>
+            </form>
+
+            <div id="quiz-feedback" class="feedback-box hidden"></div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 - Projeto de Educação Digital e IA. Desenvolvido para fins educacionais.</p>
+        <p>Tag do Projeto: #cidadaniadigital2026</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
