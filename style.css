@@ -23,6 +23,8 @@
     --accent-color: #38bdf8;
     --accent-hover: #0ea5e9;
     --border-color: #334155;
+    --success-color: #4adf51;
+    --error-color: #f87171;
 }
 
 * {
@@ -220,9 +222,7 @@ main {
     font-size: 0.9rem;
 }
 
-/* ==========================================================================
-   4. Responsividade - Media Queries (Critério de Usabilidade Nível 4)
-   ========================================================================== */
+/* Responsividade - Media Queries */
 @media (max-width: 768px) {
     .main-header {
         flex-direction: column;
